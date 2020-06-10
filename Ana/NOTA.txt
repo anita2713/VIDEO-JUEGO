@@ -1,0 +1,33 @@
+El proyecto solo tiene una clase (ProyectoFinalTopicos.java)
+esta clase manda a llamar clases de una biblioteca que se encuentra en:
+
+En la carpeta lib, se encuentra el proyecto que contiene 3 clases
+1. el marco de la aplicación (MarcoAplicacion.java)
+2. la animación con hilos (AnimaRayas.java)
+3. el lienzo donde se dibujaron y pusieron las imagenes (PanelDibujo)
+
+-La clase 1 es la interfaz donde pusimos los botones, los paneles,
+en esta clase verifica si pulsa el boton de flecha arriba o abajo
+para mover el carro del usuario. tambien agregamos botones le damos dimension
+ y nombre para poder usarlos posteriormente en el videojuego a la ventana se le da tamaño
+
+-La clase 2 es la que contiene las intrucciones para animar el juego, 
+esta clase verifica cuando el carro choca, y detiene el hilo, y reemplaza la imagen del carro por el de
+una explosión(imagen gif) hay que recordar como funciona un hilo vamos a iniscias un hilo con un star
+y vamos a parar el hilo con un stop y tambien hay que matar el hilo uno vez que el video juego termine ya que si 
+este seguira ejecutandose constantemente
+
+-La clase 3 es la que el hilo repinta para animar el juego, solo repite el repaint() constante
+para generar sensación de movimiento. 
+
+
+
+
+
+
+
+
+
+
+
+
